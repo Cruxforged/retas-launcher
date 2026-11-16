@@ -1,0 +1,16 @@
+{
+  "$schema": "file:///D:/Coding/retas-launcher-distro/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "Main",
+    "description": "Minecraft 1.21.11 · Fabric",
+    "icon": "",
+    "address": "143.20.155.28:25576",
+    "mainServer": true,
+    "autoconnect": true
+  },
+  "fabric": {
+    "version": "0.20.1"
+  },
+  "untrackedFiles": []
+}
