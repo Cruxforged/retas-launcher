@@ -31,6 +31,7 @@ Upstream Helios screens unchanged: loading, welcome, login (Microsoft/Mojang), l
 ## Decisions
 - Based on upstream master (not v2.2.1): v2.2.1 cannot launch 1.20.5+ (Java 21, new version format).
 - Artifact names `Retas-Launcher-setup-*` (no apostrophe/space) so release URLs and auto-update stay safe.
+- electron-builder `publish` set explicitly to Cruxforged/retas-launcher; package.json repository/homepage/bugs point there (else updates/publish go to Helios).
 - Distro hosted on gh-pages branch of this repo (single repo; `.nojekyll`).
 - Server id stays `Main-1.21.11` (Nebula convention: folder `<id>-<mcVersion>`).
 - Create → Create Fly (unofficial Fabric port of Create 6).
