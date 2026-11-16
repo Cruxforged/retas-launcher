@@ -3,6 +3,7 @@
 ## Overview
 Reta's Launcher: branded fork of Helios Launcher (Electron) for a friends' RP server.
 Server: id "Main" (distro id `Main-1.21.11`), 143.20.155.28:25576, Minecraft 1.21.11, Fabric loader 0.20.1, Java 21 (helios-core default for 1.20.5+).
+Release: bump version, `gh release create vX.Y.Z --draft`, push; CI uploads installers to the draft; then publish.
 Run: `npm ci`, `npm start`. Build: `npm run dist` (or `dist:win`). Lint: `npm run lint`.
 
 ## Structure
@@ -35,6 +36,7 @@ Upstream Helios screens unchanged: loading, welcome, login (Microsoft/Mojang), l
 - Create → Create Fly (unofficial Fabric port of Create 6).
 
 ## Done
+- 2026-11-16: v1.0.0 release (draft release + CI publish).
 - 2026-11-16: Fork, branding, distro URL, gh-pages distribution with 23 mods, build artifact upload.
 
 ## Next / known issues
